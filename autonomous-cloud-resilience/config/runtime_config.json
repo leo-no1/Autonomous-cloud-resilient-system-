@@ -1,0 +1,14 @@
+{
+  "heartbeat_interval_sec": 2,
+  "control_interval_sec": 30,
+  "log_interval_sec": 5,
+  "max_log_rows": 3000,
+  "log_file_path": "data/metrics_logged.jsonl",
+  "data_collection_mode": true,
+  "heartbeat_timeout_sec": 10,
+  "low_anomaly_threshold": -0.1,
+  "high_anomaly_threshold": 0.1,
+  "mid_cpu_threshold": 70.0,
+  "mid_queue_threshold": 5,
+  "high_lat_threshold": 300.0
+}

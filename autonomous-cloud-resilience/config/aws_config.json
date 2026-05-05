@@ -1,0 +1,6 @@
+{
+  "region": "us-east-1",
+  "sqs_heartbeat_queue_url": "https://sqs.us-east-1.amazonaws.com/YOUR_ACCOUNT_ID/heartbeat-queue",
+  "sqs_command_queue_url": "https://sqs.us-east-1.amazonaws.com/YOUR_ACCOUNT_ID/command-queue",
+  "sns_alert_topic_arn": "arn:aws:sns:us-east-1:YOUR_ACCOUNT_ID:cloud-resilience-alerts"
+}
